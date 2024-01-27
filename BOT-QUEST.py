@@ -2,7 +2,7 @@ import telebot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 import json
 
-TOKEN="TOKEN"
+TOKEN=input("Введите токен для своего бота")
 bot=telebot.TeleBot(TOKEN)
 
 where_you={}
